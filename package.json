@@ -4,7 +4,7 @@
   "description": "Testing travis with node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/tlystad24/TravisJS/issues"
   },
-  "homepage": "https://github.com/tlystad24/TravisJS#readme"
+  "homepage": "https://github.com/tlystad24/TravisJS#readme",
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {}
 }
